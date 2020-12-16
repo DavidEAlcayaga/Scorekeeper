@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2020 David Canto-Alcayaga davidcanto01@gmail.com
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<resources>
+  <color name="blue_300">#7986cb</color>
+  <color name="blue_500">#3F51B5</color>
+  <color name="blue_700">#303f9f</color>
+  <color name="blue_900">#1a237e</color>
+
+  <color name="purple_800">#6f258e</color>
+  <color name="purple_700">#7e2a97</color>
+  <color name="purple_600">#90309F</color>
+  <color name="purple_500">#9d34a5</color>
+  <color name="purple_400">#ac4fb2</color>
+  <color name="purple_200">#cf96d2</color>
+
+  <color name="red_500">#db4b57</color>
+  <color name="red_700">#b53f51</color>
+  <color name="red_900">#7b3045</color>
+
+  <color name="grey_50">#eceff1</color>
+  <color name="grey_200">#b0bec5</color>
+  <color name="grey_600">#546e7a</color>
+  <color name="grey_800">#37474f</color>
+  <color name="grey_900">#263238</color>
+
+  <color name="black_0">#000000</color>
+  <color name="white_1000">#FFFFFF</color>
+</resources>
