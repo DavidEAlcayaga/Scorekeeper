@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2020 David Canto-Alcayaga davidcanto01@gmail.com
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+
+<resources>
+
+  <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="ScoreButtons" parent="Widget.AppCompat.Button">
+    <item name="android:background">@drawable/button_background</item>
+    <item name="android:tint">@color/colorPrimary</item>
+  </style>
+  
+  <style name="PlusButtons" parent="ScoreButtons">
+    <item name="android:src">@drawable/ic_plus</item>
+    <item name="android:contentDescription">
+      @string/plus_button_description
+    </item>
+  </style>
+  
+  <style name="MinusButtons" parent="ScoreButtons">
+    <item name="android:src">@drawable/ic_minus</item>
+    <item name="android:contentDescription">
+      @string/minus_button_description
+    </item>
+  </style>
+
+  <style name="ScoreText">
+    <item name="android:textAppearance">
+      @style/TextAppearance.AppCompat.Display3
+    </item>
+  </style>
+
+  <style name="TeamText">
+    <item name="android:textAppearance">
+      @style/TextAppearance.AppCompat.Display1
+    </item>
+  </style>
+
+</resources>
